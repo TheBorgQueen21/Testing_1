@@ -1,0 +1,80 @@
+riddle1 = input("I can be as small as a pea, or as large as an elephant. Without the sun I die. What am I?")
+riddle2 = input("How Many Months have 28 days?")
+riddle3 = input("What goes up, but never goes down?")
+riddle4 = input("I am tall when I am young, and short when I am old. What am I?")
+
+answer1 = "shadow"
+answer2 = str(12) #check if I can keep this as a string
+answer2a = "twelve"
+answer3 = "age"
+answer4 = "candle"
+
+score = 0
+
+#question1
+
+if riddle1 == answer1:
+    print ("Correct!")
+    score = score + 5
+elif riddle1 == "a " + answer1:
+    print ("Correct!")
+    score = score + 5
+elif riddle1 == "the " + answer1:
+    print ("Correct!")
+    score = score + 5
+else:
+    print ("try again!")
+
+#question2
+
+if riddle2 == answer2:
+    print ("Correct!")
+    score = score + 5
+elif riddle2 == answer2 + " months":
+    print ("Correct!")
+    score = score + 5
+elif riddle2 == answer2a:
+    print ("Correct!")
+    score = score + 5
+elif riddle2 == answer2a + " months":
+    print ("Correct!")
+    score = score + 5
+else:
+    print ("try again!")
+
+#question3
+
+if riddle3 == answer3:
+    print ("Correct!")
+    score = score + 5
+elif riddle3 == "an " + answer3:
+    print ("Correct!")
+    score = score + 5
+else:
+    print ("try again!")
+
+#question4
+
+
+if riddle4 == answer4:
+    print ("Correct!")
+    score = score + 5
+elif riddle4 == "a " + answer4:
+    print ("Correct!")
+    score = score + 5
+elif riddle4 == "the " + answer4:
+    print ("Correct!")
+    score = score + 5
+else:
+    print ("try again!")
+
+
+#player's score
+print ("Your Score: " + str(score) + " out of 20")
+
+
+
+
+
+
+
